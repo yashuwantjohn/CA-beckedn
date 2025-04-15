@@ -10,5 +10,5 @@
  app.use("/users", userRoutes);
  
  app.listen(PORT, () => {
-     console.log(Server is running: http://localhost:${PORT});
+ console.log(`Server is running: http://localhost:${PORT}`);
  });
