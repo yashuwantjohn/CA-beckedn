@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 const router = express.Router();
 
 router.post("/users", async(req, res) => {
@@ -52,4 +52,4 @@ router.get("/users", async(req, res) => {
     }
 });
 
-export default router;
+module.exports = router;
